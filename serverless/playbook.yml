@@ -145,7 +145,7 @@
       tags: [docker]
 
     - name: Run Docker Compose
-      command: docker-compose up -d
+      command: docker compose up -d
       args:
         chdir: "{{ docker_compose_dir }}"
       tags: [docker]
